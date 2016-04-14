@@ -1,9 +1,9 @@
-package math
+package math.v1
 
 /**
   * @author Yaroslav Zabara
   */
-class DoubleCalculator extends Calculator{
+class DoubleCalculatorV1 extends CalculatorV1{
 
   typeCalculator = CalculatorType.Double;
 

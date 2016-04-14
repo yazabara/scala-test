@@ -1,9 +1,10 @@
-import math.{Calculator, DoubleCalculator, MathUtils}
+import math.MathUtils
+import math.v1.{CalculatorV1, DoubleCalculatorV1}
 
 /**
   * @author Yaroslav Zabara
   */
-object ScalaApp {
+object ScalaAppV1 {
 
   def main(args: Array[String]) = {
     println("Hello")
@@ -18,8 +19,8 @@ object ScalaApp {
     println(mtpl)
     println(mtpl(2))
     //
-    val calc = new Calculator
-    val doubleCalc = new DoubleCalculator
+    val calc = new CalculatorV1
+    val doubleCalc = new DoubleCalculatorV1
     println( calc.add(1,2) )
     println( calc.typeCalculator )
     println( doubleCalc.add(1d,2d))

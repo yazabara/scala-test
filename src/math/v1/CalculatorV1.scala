@@ -1,9 +1,11 @@
-package math
+package math.v1
+
+import math.MathUtils
 
 /**
   * @author Yaroslav Zabara
   */
-class Calculator {
+class CalculatorV1 {
 
   //enum
   object CalculatorType extends Enumeration {

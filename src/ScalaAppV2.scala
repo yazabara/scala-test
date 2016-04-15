@@ -27,6 +27,6 @@ object ScalaAppV2 {
 //    case calc.typeCalculator == CalculatorV2.CalculatorType.Integer =>   ...
 //    case calc.typeCalculator == CalculatorV2.CalculatorType.Integer =>   ...
     //case _ => "unknown"
-  }
+  //}
 
 }

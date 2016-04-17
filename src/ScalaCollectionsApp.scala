@@ -6,7 +6,7 @@ object ScalaCollectionsApp {
     val numbers = List(1, 2, 3, 4)
     println(numbers)
     //
-    val set1 =  Set(1, 1, 2)
+    val set1 = Set(1, 1, 2)
     println(set1)
     //
     val hostPort = ("localhost", 80)

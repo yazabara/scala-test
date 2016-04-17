@@ -7,7 +7,7 @@ import math.MathUtils
   */
 class IntCalculatorV2 extends CalculatorV2[Int] {
 
-  typeCalculator = CalculatorType.INTEGER;
+  typeCalculator = CalculatorType.INTEGER
 
   override def multiply(a: Int, b: Int): Int = MathUtils.add(a, b)
 
